@@ -30,19 +30,20 @@ int main(){
 
      int j=0;
      for(i=0;i<m;i++){
-    if(k>a[j][n-1]){
+     	
+       if(k>a[j][n-1]){
        j++;
 
-     }
+      }
 
-    if(k<a[j][n-1]){
+      if(k<a[j][n-1]){
     	n--;
     	
-    }
-
-    if(k==a[j][n-1]){
+      }
+ 
+      if(k==a[j][n-1]){
     	count++;
-    }
+      }
 
 
  }
