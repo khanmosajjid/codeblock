@@ -17,4 +17,5 @@ int main(){
 		ms=max(cs,ms);
 	}
 	cout<<"maximum sum is "<<ms<<endl;
+	return 0;
 }
