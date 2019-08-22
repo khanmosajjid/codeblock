@@ -4,7 +4,7 @@ using namespace std;
 // rainwater harvesting problem of hackerblock
 
 int main(){
-	vector <int> a;
+	vector <int> a,l,r;
 	int n,k,count=0;
 	cout<<"enter the number  of buildings"<<endl;
     cin>>n;
