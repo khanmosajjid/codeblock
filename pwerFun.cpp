@@ -2,8 +2,8 @@
 using namespace std;
 
 int pow(int a,int b){  //find the power of a power b using recursion
-	if(b==1){
-		return a;   //base condition
+	if(b==0){
+		return 1;   //base condition
 	}
 
 	return a*pow(a,b-1); //recusive function
